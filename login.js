@@ -4,8 +4,8 @@
  */
 function login() {
   // 1. Récupérer les valeurs du formulaire
-  const userEmail = document.getElementById('email').value;
-  const userPassword = document.getElementById('password').value;
+  const Email = document.getElementById('email').value;
+  const Password = document.getElementById('password').value;
 
   // 2. Valider que les champs ne sont pas vides
   if (!email || !password) {
